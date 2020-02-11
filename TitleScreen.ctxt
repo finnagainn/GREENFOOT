@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TitleScreen
+comment0.text=\n\ Write\ a\ description\ of\ class\ TitleScreen\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=TitleScreen()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ TitleScreen.\n\ \n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\ \ \n\ \ \ \ public\ void\ act()\ {\n\n\ \ \ \ \ \ \ \ if\ (Greenfoot.mouseClicked(null))\ {\n\ \ \ \ \ \ \ \ \ \ \ \ Actor\ actor\ \=\ Greenfoot.getMouseInfo().getActor();\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (actor\ \!\=\ null)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ (actor\ instanceof\ PatientZero)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //actor.setImage("originalhuman.png");\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Greenfoot.setWorld(new\ MyWorld());\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ }\ \ \ \ \n\ \ \ \ }\n\ \ \ \ \n
+numComments=3
